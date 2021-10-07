@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+  color: white;
+}
+header > h1 {
+  text-align: center;
+  color: rgb(241, 168, 33);
+  border-radius: 10px;
+  margin: 20px 50px;
+  padding: 15px;
+  background-color: rgb(9, 83, 83);
+  box-shadow: 0 0 15px greenyellow;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.main {
+  position: relative;
+  left: 45%;
+  margin: 40px;
+  border: 2px solid white;
+  padding: 10px;
+}
+.scoreboard {
+  width: 30%;
+  border: 2px solid white;
+  margin: 25px auto;
+  padding: 15px;
+  position: relative;
+  text-align: center;
+  font-size: 40px;
+}
+.banner {
+  background-color: red;
+  padding: 4px;
+  font-size: 20px;
+}
+#userbanner {
+  position: absolute;
+  top: 30%;
+  left: -6%;
+}
+#compbanner {
+  position: absolute;
+  top: 30%;
+  right: -6%;
+}
+.result > p {
+  text-align: center;
+  margin: auto;
+  font-size: 40px;
+  /* border: 2px solid orangered; */
+  width: 50%;
+}
+.choices {
+  text-align: center;
+  margin: 40px;
+}
+.choice {
+  display: inline-block;
+  margin: 20px;
+  border: 5px solid rgba(206, 169, 5, 0.575);
+  border-radius: 10px;
+  cursor: pointer;
+}
+.move {
+  text-align: center;
+  font-size: 50px;
+}
+.green-glow {
+  border: 4px solid green;
+  box-shadow: 0 0 10px green;
+}
+
+.red-glow {
+  border: 4px solid red;
+  box-shadow: 0 0 10px red;
+}
+
+.grey-glow {
+  border: 4px solid grey;
+  box-shadow: 0 0 10px rgb(44, 5, 5);
+}
